@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE > c
+print $CFILE > c | gcc c
