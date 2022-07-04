@@ -9,13 +9,11 @@
 int main(void)
 {
 	char lastChar;
-
-	lastChar = 'a';
-	putchar(lastChar);
-	while (lastChar < 'z')
+	
+	for(lastChar = 'a'; lastChar < 'z'; lastChar++)
 	{
-		lastChar += 1;
 		putchar(lastChar);
 	}
+	putchar(lastChar);
 	return (0);
 }
