@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	char numbers[] = "0123456789";
-	int counter;
-	for (counter = 0; counter <= 9; counter++)
+	int num;
+	
+	for (num = '0'; num <= '9'; num++)
 	{
-		putchar(numbers[counter]);
+		putchar(num);
 	}
 	putchar('\n');
 	return (0);
