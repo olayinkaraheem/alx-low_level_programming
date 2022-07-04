@@ -7,13 +7,11 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	char lastChar;
-	
-	for(lastChar = 'a'; lastChar < 'z'; lastChar++)
+{	
+	for(char lastChar = 'a'; lastChar < 'z'; lastChar++)
 	{
 		putchar(lastChar);
 	}
-	putchar(lastChar);
+	putchar("\n");
 	return (0);
 }
