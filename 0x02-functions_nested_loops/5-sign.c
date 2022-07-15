@@ -15,13 +15,13 @@ int print_sign(int c)
 {
 	if (c > 1)
 	{
-		printf("%c", '+');
+		_putchar('+');
 		return (1);
 	} else if (num == 0)
 	{
-		printf("%c", '0');
+		_putchar('0');
 		return (0);
 	}
-	printf("%c", '-');
+	_putchar('-');
 	return (-1);
 }
