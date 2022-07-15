@@ -3,7 +3,7 @@
 
 /**
  * _abs - prints the absolute value of an integer
- *
+ * @c: an integer value
  *
  * Return: int.
  */
