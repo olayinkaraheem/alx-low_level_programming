@@ -14,7 +14,7 @@
 int _islower(char letter)
 {
 	if ((int)letter >= 97 && (int)letter <= 122)
-		return (0);
-	else
 		return (1);
+	else
+		return (0);
 }
