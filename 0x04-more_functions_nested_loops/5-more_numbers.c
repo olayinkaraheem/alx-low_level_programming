@@ -20,8 +20,8 @@ void more_numbers(void)
 		while (num <= MAX)
 		{
 			if (num >= 10)
-				_putchar((num/10) + '0');
-			_putchar((num%10) + '0');
+				_putchar((num / 10) + '0');
+			_putchar((num % 10) + '0');
 			num++;
 		}
 		num = 0;
