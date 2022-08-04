@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - check the code
@@ -17,7 +18,10 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if ((int)*argv[i] >= 65 && (int)*argv[i] <= 122)
+			if (
+					((int)*argv[i] >= 65 && (int)*argv[i] <= 122)
+					|| (isdigit((int)*argv[i]) < 1)
+			)
 			{
 				printf("%s\n", "Error");
 				return (1);
