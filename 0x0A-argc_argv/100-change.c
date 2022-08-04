@@ -21,7 +21,8 @@ int main(int argc, char *argv[])
 	amount = atoi(argv[1]);
 	if (amount < 0)
 	{
-		printf("%d\n", '0');
+		printf("%d\n", 0);
+		return (0);
 	}
 	for (i = 0; i < 5 && amount >= 0; i++)
 	{
